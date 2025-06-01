@@ -19,7 +19,7 @@ services:
       # - POSTGRES_HOST=postgres
 
   web:
-    image: koushikreddy24/rubyrailsapp:latest
+    image: rakesh763/rails-app:latest
 
     volumes:
       - .:/app
